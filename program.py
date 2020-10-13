@@ -178,3 +178,5 @@ with open('shit_pic.jpg', 'rb') as rf:
         while len(rf_chunk) > 0:
             wf.write(rf_chunk)
             rf_chunk = rf.read(chunk_size)
+
+# sdkfds
