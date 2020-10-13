@@ -103,7 +103,6 @@ import datetime
 #     print(f_contents, end='')
 
 
-
 # def student_info(*args, **kwargs):
 #     print(args)
 #     print(kwargs)
@@ -148,15 +147,15 @@ import datetime
 #     f.seek(0)
 #     f_contents = f.read(size_to_read)
 #     print(f_contents)
-    # while len(f_contents) > 0:
-    #     print(f_contents, end='*')
-    #     f_contents = f.read(size_to_read)
+# while len(f_contents) > 0:
+#     print(f_contents, end='*')
+#     f_contents = f.read(size_to_read)
 
-    # os.chdir('D:\\codeing\\projects\\fucking _with_file_IO_for_untitled\\test_folder')
-    # print(os.listdir())
-    #
-    # with open('also_crap.txt', 'w') as f:
-    #     f.write('Test')
+# os.chdir('D:\\codeing\\projects\\fucking _with_file_IO_for_untitled\\test_folder')
+# print(os.listdir())
+#
+# with open('also_crap.txt', 'w') as f:
+#     f.write('Test')
 
 # os.chdir('D:\\codeing\\projects\\fucking _with_file_IO_for_untitled\\test_folder')
 # print(os.listdir())
@@ -178,5 +177,3 @@ with open('shit_pic.jpg', 'rb') as rf:
         while len(rf_chunk) > 0:
             wf.write(rf_chunk)
             rf_chunk = rf.read(chunk_size)
-
-# sdkfds
